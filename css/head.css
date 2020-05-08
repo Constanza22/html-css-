@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Lato:300,400|Poiret+One&display=swap');
+
+header{
+background-color: #1e3b48;
+width: 100%;
+left: 0;
+position: absolute;
+top:0;
+height: 460px;
+}
+
+
+.style{
+padding-left: 7.5em;
+padding-top: 1.5em;
+font-size: 45px;
+text-decoration:none;
+display: inline-block;
+margin-left: 4%;
+font-size: 45px;
+padding right: 2em;
+font-family: 'Poiret One', cursive;
+font-weight: normal;
+color: #ffff;
+}
+.style:hover{
+  color: #648880
+}
+
+.bloque1{
+margin-left: 50em;
+padding-bottom: -400em;
+line-height: -10em;
+margin-top: -17.9em;
+
+}
+
+nav, .white{
+  text-decoration: none;
+  font-family:'Lato', sans-serif;
+  color: #648880;
+
+}
+
+.white{color:#ffff;
+  padding: 0.4em;
+  font-size: 14px;
+}
+
+h2{
+  padding-left: 4em;
+  padding-top: 0.5em;
+  font-size: 22px;
+  font-weight: normal;
+  font-family:'Josefin Sans', sans-serif;
+}
+
+.bloque2{
+font-family:'Josefin Sans', sans-serif;
+text-align: center;
+margin-top: 3.5em;
+font-size: 1.2em;
+line-height: 1.5em;
+margin-bottom: 1em;
+}
+
+h3{
+  color: #648880;
+  font-size: 1.5em;
+  margin-bottom: -0.2em;
+  font-weight: normal;
+}
+.blue{
+  margin-bottom: 1.6em;
+  color: #ffff;
+}
+
+.button{
+border: 2px #ffff solid;
+padding: 1em 1.1em 1em 1.1em;
+border-radius: 0.2em;
+color: #ffff;
+font-family:'Lato', sans-serif;
+text-decoration: none;
+margin-left: -7em;
+margin-top: 1.5em;
+
+}
+
+.button:hover{
+  color: #648880;
+  background-color: #ffff;
+}
+nav{
+	margin-top: 200px;
+}
+
+.center {
+	text-align: center;
+	font-size: 22px;
+	line-height: 1.4em;
+  font-family: 'Josefin Sans', sans-serif;
+   padding-top: 2em;
+   margin-left: -39em;
+   color: #ffff;
+   line-height: 1.4em;
+ }
+
+.center1{
+  margin-bottom: 2em;
+}
+.bloque3{
+  position: absolute;
+background-color: #c9dfe8;
+top :60%;
+left: 0;
+z-index: -1;
+  height: 460px;
+  width: 100%;
+
+}
