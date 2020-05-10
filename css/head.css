@@ -1,129 +1,176 @@
-
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato|Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Lato:300,400|Poiret+One&display=swap');
 
+
+body {background-size: cover;
+background-color: #293f50;
+  left: 0;
+    top: 0;
+}
 header{
-background-color: #1e3b48;
-width: 100%;
-left: 0;
-position: absolute;
-top:0;
-height: 460px;
+    position:running();
 }
 
+h1, h2, nav, .bloque1{
 
-.style{
-padding-left: 7.5em;
-padding-top: 1.5em;
-font-size: 45px;
-text-decoration:none;
-display: inline-block;
-margin-left: 4%;
-font-size: 45px;
-padding right: 2em;
-font-family: 'Poiret One', cursive;
-font-weight: normal;
-color: #ffff;
-}
-.style:hover{
-  color: #648880
+  height: auto;
 }
 
-.bloque1{
-margin-left: 50em;
-padding-bottom: -400em;
-line-height: -10em;
-margin-top: -17.9em;
+h1{
+    margin-left: 10em;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    color:#ffff;
+    padding-top: 0.3em;
+    font-weight: normal;
 
 }
-
-nav, .white{
-  text-decoration: none;
-  font-family:'Lato', sans-serif;
-  color: #648880;
-
-}
-
-.white{color:#ffff;
-  padding: 0.4em;
-  font-size: 14px;
-}
-
 h2{
-  padding-left: 4em;
-  padding-top: 0.5em;
-  font-size: 22px;
-  font-weight: normal;
-  font-family:'Josefin Sans', sans-serif;
+    text-align: right;
+    padding-right: 10em;
+    font-size: 22px;
+    font-family:'Josefin Sans', sans-serif;
+    color:#648880;
+    font-weight: normal;
+    margin-top: -2.5em;
 }
 
-.bloque2{
-font-family:'Josefin Sans', sans-serif;
-text-align: center;
-margin-top: 3.5em;
-font-size: 1.2em;
-line-height: 1.5em;
-margin-bottom: 1em;
+.nav1{
+    text-align: right;
+    padding-right: 12.5em;
+    font-family:'Lato', sans-serif;
+    padding-bottom: 1em;
+    color: white;
+}
+a{
+    text-decoration: none;
+    padding-left: 0.4em;
+    color: white;
+
+}
+a:hover{
+    color:#648880
+}
+.bloque1, h3{
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: -0.7em;
+    font-family:'Josefin Sans', sans-serif;
+    color:#648880 ;
+    font-weight: normal;
 }
 
-h3{
-  color: #648880;
-  font-size: 1.5em;
-  margin-bottom: -0.2em;
-  font-weight: normal;
-}
-.blue{
-  margin-bottom: 1.6em;
-  color: #ffff;
+.centro{
+    margin-left: 20em;
+    width: 700px;
+    font-size: 21px;
+    line-height: 1.6em;
+    margin-bottom: 1.8em;
+    color: #e6e6e6
 }
 
 .button{
-border: 2px #ffff solid;
-padding: 1em 1.1em 1em 1.1em;
-border-radius: 0.2em;
-color: #ffff;
-font-family:'Lato', sans-serif;
-text-decoration: none;
-margin-left: -7em;
-margin-top: 1.5em;
-
+    border: solid 2px #ffffff;
+    padding: 1.4% 1.5% 1.4% 1.5%;
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
 }
-
-.button:hover{
-  color: #648880;
-  background-color: #ffff;
-}
-nav{
-	margin-top: 200px;
-}
-
-.center {
-	text-align: center;
-	font-size: 22px;
-	line-height: 1.4em;
-  font-family: 'Josefin Sans', sans-serif;
-   padding-top: 2em;
-   margin-left: -39em;
-   color: #ffff;
-   line-height: 1.4em;
+ .button:hover{
+     color: #648880;
+     background-color: white;
  }
 
-.center1{
-  margin-bottom: 2em;
-}
-.bloque3{
-  position: absolute;
-background-color: #c9dfe8;
-top :60%;
-left: 0;
-z-index: -1;
-  height: 460px;
-  width: 100%;
+
+.bloque2{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 5em;
 
 }
 
 img{
-  width: 20%;
-  height: 20%;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.bloque3{
+    margin-left: 14em;
+    margin-right: 6em;
+    padding-bottom: 3em;
+    font-size: 19px;
+    font-family:'Josefin Sans', sans-serif;
+
+}
+
+section{
+align-content: center;
+    margin-top: 6em;
+    background-color: white;
+    margin-left: -0.5%;
+    margin-right:-0.5%;
+
+}
+
+p{
+    width: 300px;
+    font-size: 19px;
+}
+
+.enlace1{
+    width: 300px;
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 0.3em;
+    font-size: 22px;
+    font-family:'Josefin Sans', sans-serif;
+    color: 	 #595959;
+}
+
+.enlace1:hover{
+    color: #d9d9d9;
+}
+
+.c3{
+    margin-top: -0.3em;
+    color: #595959;
+}
+
+h4{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    padding-left: 0.8em;
+    color: #d9d9d9;
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+
+}
+
+.nav2{
+    text-align: right;
+    font-family:'Josefin Sans', sans-serif;
+    padding-right: 17em;
+    font-size: 12px;
+
+}
+.c2{
+    margin-top: -1em;
+}
+
+.rig{
+    text-align: left;
+    color: #d9d9d9;
+    padding-left: 6em;
+    padding-top: 2em;
+    font-size: 13px;
 }

@@ -1,4 +1,53 @@
 
-h1{
-    color:red;
+/*h1{*/
+/*    color:red;*/
+/*}*/
+
+/*div{*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    display: inline-block;*/
+/*    padding: 6em;*/
+/*}*/
+
+/*p{*/
+/*    width: 200px;*/
+/*    height: 100px;*/
+/*    display: inline-block;*/
+
 }
+
+h1 {
+    width: 100px;
+    height: 100px;
+    border: 1px groove yellow;
+}
+
+h2{
+    color: red;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px groove yellow;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.img{
+    border:10px groove coral;
+   width: 200px;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+}
+
+.img1{
+    border: 10px dashed orangered;
+    width: 200px;
+}
+
+.img2{
+    border: 10px dotted blueviolet;
+width: 200px;box-sizing: border-box;}
