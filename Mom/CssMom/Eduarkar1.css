@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lobster|Source+Sans+Pro:200,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Jaldi|Karla|Source+Sans+Pro:200,300&display=swap');
+
+nav{
+    display: inline-block;
+    position: fixed;
+    top: 30px;
+    border: 2px solid black;
+    max-width: 90%;
+    height: 50px;
+    text-align: right;
+    padding-top: 1em;
+    margin-right: auto;
+    margin-left: 5em;
+    border-left: none;
+    border-right: none;
+}
+
+header{
+    padding-bottom: 160px;
+}
+
+.enlace1{
+    padding-right: 3em;
+    padding-left: 1.8em;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: right;
+    color: #444444;
+
+}
+
+.enlace1:hover{
+    color: #FFB6C1;
+}
+
+a:last-child{
+
+    margin-right: 5em;
+}
+
+.enlace1:nth-child(-n+4){
+    border-right: solid black 2px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+
+}
+
+span{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin-right: 20em;
+    margin-left: 2em;
+}
+
+#tarjeta{
+    width: 400px;
+    height: 220px;
+    margin-top: 13em;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../ImgMom/fondopastel.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    backdrop-filter: blur(400px);
+
+}
+
+
+
+
+h1{
+    letter-spacing: 0.34em;
+    font-weight: bolder;
+}
+
+p{
+    padding-top: 2em;
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.tarjeta1{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: 5em;
+    border-bottom: 1px solid black;
+}
+
+#fondo{
+
+    border: 1px solid transparent;
+    width: 80%;
+    height: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../ImgMom/fondoBlanco.jpg);
+    background-size: cover;
+    background-position: center;
+
+}

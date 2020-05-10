@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Jaldi|Karla|Source+Sans+Pro:200,300&display=swap');
+
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: sans-serif;
+}
+
+nav {
+
+    width: 97%;
+    border: 2px black;
+    border-left: none;
+    border-right: none;
+    background-color: white ;
+    text-align: right;
+    margin-right: 1em;
+    border-width: thin;
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+}
+
+ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul a:hover {
+    color: #FFB6C1;
+}
+
+ul li a {
+    color: #444444;
+    text-decoration: none;
+}
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: lightpink;
+    text-align:right;
+    color: #444444;
+    font-size: 30px;
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    .toggle {
+        display: block;
+    }
+
+    nav ul {
+        width: 100%;
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+}
+#tarjeta{
+    width: 400px;
+    height: 220px;
+    margin-top: 8em;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-image: url(../ImgMom/opca.jpg);*/
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+
+
+}
+
+
+
+
+h1, .h22, .h23{
+    letter-spacing: 0.34em;
+    font-weight: bolder;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+p{
+    margin-top: 3em;
+    padding-top: 2em;
+   position: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3{
+    text-decoration: none;
+    color: black;
+     margin-left: 1em;
+    border-bottom: 1px solid black;
+}
+
+
+#fondo{
+
+    border: 0.3px solid transparent;
+    width: 71.2%;
+    height: 560px;
+    margin-left: 16em;
+    margin-right: auto;
+    background-image: url(../ImgMom/gpink.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 3em;
+
+}
+
+li:nth-child(-n+4){
+    border-right: solid black 2px;
+    border-width: thin;
+}
+
+li:nth-last-child(-n+5){
+   margin-right: 5em;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+.bloque1, .bloque2{
+    height: 430px;
+    width: 500px;
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 1em;
+    position: relative;
+    float: left;
+    line-height: 1em;
+    /*border: 2px greenyellow solid;*/
+
+}
+
+.bloque1{
+    margin-left: 16em;
+    background-image:url(../ImgMom/regalo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bloque2{
+    background-image: url("../ImgMom/ofc.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#tarjeta2, #tarjeta3{
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.p2, .p3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.tarjeta2, .tarjeta3{
+    margin-left: 9em;
+
+ }
+.tarjeta1:hover,.tarjeta2:hover, .tarjeta3:hover{
+    color: #FFB6C1;
+}
+
+.bloque3, .bloque4, .bloque5{
+
+    display: inline-block;
+    margin-right: 1em;
+
+}
+
+img{
+    /*border: 2px greenyellow solid;*!*/
+    width: 370px;
+    height: 300px;
+    display: inline-block;
+    padding: 0.5em;
+    margin-right: 0.4em;
+
+}
+
+#abajo{
+    margin-top: 540px;
+    margin-left: 16em;}
+
+
+/*.bloque3{*/
+/*    margin-left: 3em;*/
+/*    !*background-image: url(../ImgMom/flowers.jpg);*!*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*}*/
+
+/*.bloque4{*/
+/*    !*background-image: url("../ImgMom/globes.jpg");*!*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.bloque5{*/
+/*    !*background-image: url("../ImgMom/gpink.jpg");*!*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*}*/
+
+ .nav3{
+     text-align: center;
+
+
+}
+*********** otr*******************
+
+.bloque7{
+    height: 100px;
+    width: 100px;
+
+
+
+}
+
+img{
+    height: 290px;
+    width: 340px;
+}
+
+.bloque6{
+    padding-bottom: 3em;
+    font-size: 19px;
+    font-family:'Josefin Sans', sans-serif;
+    display: inline-flex;
+    margin-left: 13em;
+    margin-right: 15em;
+    margin-top: 1em;
+
+}
+
+
+.enlace1{
+    width: 200px;
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: -1em;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    color: #444444;
+    font-weight: normal;
+    border-bottom: 1px solid #444444;
+}
+.enlace{
+    text-decoration: none;
+padding-right:1.8em;
+
+}
+.enlace1:hover{
+    color: #FFB6C1;
+}
+
+.c3{
+    margin-top: -1em;
+    color: #595959;
+    font-size: 14px;
+    margin-right: 5em;
+    margin-left: -3em;
+}
+
+
+
+.nav2{
+    text-align: right;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 12px;
+
+}
+.c2{
+    margin-top: -1em;
+}
+
+.rig{
+    text-align: left;
+    color: #d9d9d9;
+    padding-left: 6em;
+    padding-top: 2em;
+    font-size: 13px;
+}
+
+.logo{
+    width: 110px;
+    height: 100px;
+    padding-top: 0.5em;
+}
