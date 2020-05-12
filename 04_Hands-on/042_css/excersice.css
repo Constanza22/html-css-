@@ -1,0 +1,51 @@
+
+
+/*li:nth-child(3){*/
+/*    color: #FFB6C1;*/
+/*}*/
+
+/*li:nth-child(even){*/
+/*    color:greenyellow;*/
+/*}*/
+/*EMPIZA EN 2 Y LUEGO BAJA CADA 3 ELEMENTOS*/
+/*li:nth-child(3n+2){*/
+/*    color: deeppink;*/
+/*}*/
+
+/*comienza en 8 y luego sube cada 10*/
+/*li:nth-child(10n+8){*/
+/*    color: darkviolet;*/
+/*}*/
+
+/*li:nth-child(9n+3) {*/
+/*    color: orangered;*/
+/*}*/
+
+/*article:first-letter {*/
+/*    font-family: sans-serif;*/
+/*    font-size: 30px;*/
+/*    color: darkviolet;*/
+/*}*/
+
+/*article:first-line {*/
+/*    color: deeppink;*/
+/*}*/
+
+/*div>p{*/
+/*    color: red;*/
+/*    font-family: sans-serif;*/
+/*}*/
+
+
+
+img{
+    display: block;
+    border: 10px groove royalblue;
+    padding: 10px;
+}
+
+div{
+    border-color: 5px red solid;
+    height: 200px;
+    width: 100%;pa
+}
