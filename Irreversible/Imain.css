@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+
+/*body{*/
+ /*    background-image: url("paris-674958_1920.jpg");*/
+ /*    background-position: center center;*/
+ /*    background-size: cover;*/
+ /*    background-repeat: no-repeat;*/
+ /*    background-attachment: fixed;*/
+ /*}*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+ body{
+     /*background-color: #f5c000;*/
+     height: 3000px; /* Used to enable scrolling */
+     background-image: linear-gradient(#f5c000,#f5c000,#660000);
+ }
+
+ header{
+     background-color: black;
+     width: 100%;
+     top: 0;
+     left: 0;
+     height: 500px;
+ }
+
+ .img1{
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     padding-bottom: 2em;
+     padding-top: 0.5em;
+     height: 230px ;
+     transition: all 0.5s ease;
+
+
+ }
+
+ .img1:hover, .img2:hover{
+     transform: scale(1.2);
+
+ }
+
+ .img2{width: 320px;
+     height: 400px;
+     /*transition: width 2s, heigth 2s, margin 2s;*/
+     display: block;
+     margin-right: auto;
+     margin-left: 13em;
+    margin-top: 4em;
+
+
+ }
+
+ .img2:hover{
+     /*width: 40%;*/
+     /*height: 800px;*/
+     filter: grayscale(100%);
+     transition: all 0.5s ease;
+
+ }
+
+ a {
+     font-size: 18px;
+     font-family: sans-serif;
+     border: solid #f5c000 2px;
+     padding: 1.5em;
+     text-decoration: none;
+     color: #f5c000;
+     margin-right: auto;
+     margin-left: auto;
+     display:block;
+     width: 80px;
+     text-align: center;
+     z-index: -1;
+}
+
+ a:hover{
+     background-color:#f5c000;
+     color: black;
+     border-color: #f5c000;
+     font-weight: bold;
+ }
+
+ h1{
+     font-family: 'Bowlby One SC', cursive;
+     font-size: 55px;
+     line-height: 2em;
+     margin-top: -6.8em;
+     text-align: center;
+     margin-left: 5em;
+     width: 100%;
+ }
+
+
+ div+.p1{
+     font-size: 20px;
+     font-family: sans-serif;
+     width: 20%;
+     display: block;
+     margin-top: 7.5em;
+     margin-left: 10.5em;
+     text-align: left;
+     line-height: 1.5em;
+
+
+
+ }
+
+ /*h1:hover{*/
+ /*    transform: rotate(180deg);*/
+ /*}*/
+
+ .p2{
+     border: solid 2px black;
+     font: 20px sans-serif;
+     line-height: 1.5em;
+     margin-left: 35em;
+     margin-top: -8em;
+     width: 40%;
+     border-left: none; border-right: none;
+     padding-top: 1em; padding-bottom: 1em;
+ }
+
+ aside+img{
+     width: 300px;
+     height: 380px;
+
+     margin-left: 13em;
+ }
+
+ aside+img:hover{
+     filter: grayscale(100%);
+ }

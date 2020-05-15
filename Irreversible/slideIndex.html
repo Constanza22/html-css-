@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="SlideImain.css">
+
+</head>
+<header>
+    <img class="img1" src="Img/unnamed.jpg" alt="">
+    <div></div>
+    <a href="https://www.youtube.com/watch?v=ZoDtJjqkfxU" target="_blank"><span>Trailer</span></a>
+
+</header>
+<body>
+<div>
+    s<img class="img2" src="Img/fondoimagen.jpg" alt=""><h1 lang="fr">Le Temps <br>Détruit <br> Tout</h1></div>
+
+<p class="p1">Quiero hablar de una película bastante perturbadora,
+    que vi hace un tiempo y que me parece oportuna para
+    tener ataques de pánico durante la cuarentena. </p>
+
+<aside>
+
+<p class="p2">Irreversible es una película de Gaspar Noé un increíble director Argentino, lo que no sorprende porque los
+    argentinos definitivamente tienen una magia para el arte cinematográfico gigantesca. Gaspar Noé este director provocador, lo descubrí viendo
+    <b>“Enter The Void"</b> otra peli increíble de la que quiero hablar después, vi <b>"Enter The Void"</b>, luego <b>"LOVE"</b> que por cierto esta en Netflix, me obsesioné un poco y decidí ahondar más en la filmografía de Noé, así llegué a Irreversible.
+</p></aside>
+
+<!--<img class="slideIndex" src=caricatura.jpg" alt="extintor">-->
+<!--<img class="slideIndex src="src="Img/hy.jpg" alt="poster">-->
+<!--<img class="slideIndex" src="Img/fire.jpg" alt="fire extintor">-->
+<!--<img class="slideIndex" src="Img/munecos.jpg" alt="Caricatura">-->
+<!--<img class="slideIndex" src="Img/poster.jpg" alt="Segundo Poster">-->
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="Img/caricatura.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="Img/munecos.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="Img/poster.jpg" style="width:100%">
+    </div>
+
+</div>
+<br>
+
+<div>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
