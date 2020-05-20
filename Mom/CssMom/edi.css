@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lobster|Source+Sans+Pro:200,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Jaldi|Karla|Source+Sans+Pro:200,300&display=swap');
+
+
+
+
+ ul{
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 70%;
+     list-style-type: none;
+     border: 2px solid;
+     padding: 1em;
+     border-right: none;
+     border-left: none;
+     font-size: 1.3em;
+     height: 50px;
+     margin-top: 5em;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+
+li, a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    flex-grow: 1;
+
+}
+
+li>a:hover{
+    background-color:#FFE4C4;
+    padding: 2em;
+}
+
+li:first-child{font-weight: bold}
+
+nav+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: solid pink 2px;*/
+    /*width: 900px;*/
+    /*height: 680px;*/
+    /*!*margin-right: auto; margin-left: auto;*!*/
+    /*background-image: url("../../.idea/ImgMom/gpink.jpg");*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+}
+
+#fondo{
+    display: flex;
+    align-items: center;
+    background-image: url("../../.idea/ImgMom/gpink.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    height: 800px;
+    flex-shrink: 5;
+}
+
+.tarjeta{
+    border: 2px solid;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    flex-shrink: 1;
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+}
+
+#fondo2{
+    /*border: 2px darkviolet solid;*/
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+
+}
+
+.bloque2, .bloque3 {
+    border: 2px orangered solid;
+    background-color: aqua;
+    width: 480px;
+    height: 460px;
+}
+
+.bloque2{
+    background-image: url("../ImgMom/regalo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bloque3{
+    background-image: url("../ImgMom/ofc.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#fondo3{
+    /*border: 2px blue solid;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fondo3>div{
+    background-color: #FFB6C1;
+    border: 2px solid yellow;
+    width: 310px;
+    height: 280px;
+}
+
+
+ /*a,li{*/
+ /*    text-decoration: none;*/
+ /*    flex: 1;*/
+ /*    box-sizing: border-box;*/
+ /*    font-family: 'Source Sans Pro', sans-serif;*/
+ /*    padding: 0.5em;*/
+
+ /*}*/
+
+ /*li:first-child{ font-weight: bold;*/
+ /*}*/

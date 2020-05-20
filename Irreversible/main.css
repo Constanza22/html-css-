@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 360px;
+    margin: 0;
+    left: 0;
+    top:0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    align-self: center;
+}
+
+a, span{
+   text-decoration: none;
+    border: yellowgreen 2px solid;
+    align-self:flex-end;
+
+
+}
