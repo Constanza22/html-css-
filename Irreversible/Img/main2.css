@@ -8,13 +8,13 @@ body, header, img, section{
 
 body{
     background-image: linear-gradient(#f5c000,#f5c000,#660000);
-    height: 600vh;
+    height: 300vh;
     background-repeat: no-repeat;
 }
 
 
 header{
-    height: 350px;
+    height: 450px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -68,25 +68,15 @@ span:hover{
     /*height: 30vh;*/
     align-items: center;
    justify-content: space-evenly;
-    flex-direction: column;
 
 }
 
-.hola-amor{
-    /*border:2px solid red;*/
-    height: 410px;
-    width: 300px;
-    margin: 3em 10px 10px 10px;
+.hola-amor, .hola-titulo{
+    border:2px solid red;
+    height: 250px;
+    width: 250px;
+    margin: 3em 10px 1em 10px;
 
-}
-
-.hola-titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 210px;
-    width: 300px;
-    margin: 4em 10px 10px 10px;
 }
 
 img{
@@ -97,10 +87,9 @@ img{
 .hola-amor{
 
     background-image: url("Img/fondoimagen.jpg");
-    background-size: 300px 410px;
+    background-size: 250px 250px;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 5px;
 
  }
 
@@ -119,15 +108,13 @@ h1{
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
-    /*margin: 80px auto;*/
+    margin: 80px auto;
     /*position: absolute;*/
     /*top:150px;*/
 }
 #contenido2{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-evenly;
 
 }
 #contenido2>div{
@@ -138,26 +125,25 @@ h1{
     font-size: 1.3rem;
     font-variant: small-caps;
     box-sizing: border-box;
-    /*margin: 3em 30px;*/
+    margin: 3em 30px;
 
 
 }
 
 #contenido2>:first-child{
-    /*color: red;*/
+    color: red;
    text-align: center;
-    width: 330px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:1em 45px;
-    /*font-weight: bold;*/
+    margin:3rem 45px;
 }
 
 
 #cont{
-    width: 300px;
+    width: 400px;
     border:none;
     border-top: 2px solid;
     text-align: justify;
@@ -171,34 +157,15 @@ h1{
 
 #contenido3{
    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 22em 10px;
-    flex-direction: column;
+    justify-content: space-evenly;
 
 }
 
 #contenido3>div{
-    /*border:2px hotpink solid;*/
-    height: 410px;
-    width: 300px;
-
+    border:2px hotpink solid;
+    height: 460px;
+    width: 360px;
 }
-
-#contenido3>:first-child{
-    background-image: url("Img/poster.jpg");
-    background-size: 300px 410px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#contenido3>:first-child:hover{
-    transform: scale(1.1);
-    filter: grayscale(100%);
-}
-
-
-
 
 
 
